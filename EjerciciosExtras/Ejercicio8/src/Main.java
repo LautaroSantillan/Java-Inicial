@@ -7,6 +7,14 @@ Ejercicio 8 : numeros pares e impares.
 */
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        int numRandom = 88;
+        System.out.println("El número random elegido es: "+numRandom);
+
+        //Desarrollo
+        if(numRandom % 2 == 0) {
+            System.out.println("Es PAR");
+        } else {
+            System.out.println("Es IMPAR");
+        }
     }
 }

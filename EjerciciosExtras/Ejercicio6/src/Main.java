@@ -30,13 +30,3 @@ public class Main {
         }
     }
 }
-
-/*if (nro1 >= nro2) {
-        result = nro1 / nro2;
-        resto = nro1 % nro2;
-        System.out.println("Si dividimos "+nro1+" y "+nro2+".\nObtenemos como resultado: "+result+" con resto: "+resto);
-        } else {
-        result = nro2 / nro1;
-        resto = nro2 % nro1;
-        System.out.println("Si dividimos "+nro2+" y"+nro1+".\nObtenemos como resultado: "+result+" con resto: "+resto);
-        }*/
