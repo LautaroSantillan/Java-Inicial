@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/EjerciciosEnClase/Clase5/Clase5.iml" filepath="$PROJECT_DIR$/EjerciciosEnClase/Clase5/Clase5.iml" />
       <module fileurl="file://$PROJECT_DIR$/Desafios/Desafio1/Desafio1.iml" filepath="$PROJECT_DIR$/Desafios/Desafio1/Desafio1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Desafios/Desafio2/Desafio2.iml" filepath="$PROJECT_DIR$/Desafios/Desafio2/Desafio2.iml" />
       <module fileurl="file://$PROJECT_DIR$/Desafios/Desafios.iml" filepath="$PROJECT_DIR$/Desafios/Desafios.iml" />
       <module fileurl="file://$PROJECT_DIR$/EjerciciosExtras/Ejercicio1/Ejercicio1.iml" filepath="$PROJECT_DIR$/EjerciciosExtras/Ejercicio1/Ejercicio1.iml" />
       <module fileurl="file://$PROJECT_DIR$/EjerciciosExtras/Ejercicio10/Ejercicio10.iml" filepath="$PROJECT_DIR$/EjerciciosExtras/Ejercicio10/Ejercicio10.iml" />
@@ -15,8 +17,11 @@
       <module fileurl="file://$PROJECT_DIR$/EjerciciosExtras/Ejercicio7/Ejercicio7.iml" filepath="$PROJECT_DIR$/EjerciciosExtras/Ejercicio7/Ejercicio7.iml" />
       <module fileurl="file://$PROJECT_DIR$/EjerciciosExtras/Ejercicio8/Ejercicio8.iml" filepath="$PROJECT_DIR$/EjerciciosExtras/Ejercicio8/Ejercicio8.iml" />
       <module fileurl="file://$PROJECT_DIR$/EjerciciosExtras/Ejercicio9/Ejercicio9.iml" filepath="$PROJECT_DIR$/EjerciciosExtras/Ejercicio9/Ejercicio9.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EjerciciosClase/EjerciciosClase.iml" filepath="$PROJECT_DIR$/EjerciciosClase/EjerciciosClase.iml" />
       <module fileurl="file://$PROJECT_DIR$/EjerciciosExtras/EjerciciosExtras.iml" filepath="$PROJECT_DIR$/EjerciciosExtras/EjerciciosExtras.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/JAVA.iml" filepath="$PROJECT_DIR$/.idea/JAVA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EjerciciosClase/clase5/PrimerEj/PrimerEj.iml" filepath="$PROJECT_DIR$/EjerciciosClase/clase5/PrimerEj/PrimerEj.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EjerciciosClase/clase5/clase5.iml" filepath="$PROJECT_DIR$/EjerciciosClase/clase5/clase5.iml" />
     </modules>
   </component>
 </project>
