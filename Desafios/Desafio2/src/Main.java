@@ -1,6 +1,6 @@
 import Utils.Persona;
-import java.util.ArrayList;
-import java.util.List;
+
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -12,18 +12,37 @@ public class Main {
         Persona people5 = new Persona("Nicolas", "Sosa");
 
         //Metiendo los objetos a una lista
-        List<Persona> listaPersonas = new ArrayList<Persona>();
-        listaPersonas.add(people1);
-        listaPersonas.add(people2);
-        listaPersonas.add(people3);
-        listaPersonas.add(people4);
-        listaPersonas.add(people5);
+        List<Persona> personas = new ArrayList<Persona>();
+        personas.add(people1);
+        personas.add(people2);
+        personas.add(people3);
+        personas.add(people4);
+        personas.add(people5);
 
         //Se verifica que se hayan agregado correctamente todos los objetos a la lista y enumerarlos
-        System.out.println("Cantidad de elementos para iterar: " + listaPersonas.size());
+        /*System.out.println("Cantidad de elementos para iterar: " + listaPersonas.size());
         for (Persona personas : listaPersonas){
             System.out.println("Persona: " + personas);
-        }
+        }*/
 
+        //Ordenado por nombre
+        Collections.sort(personas);
+        for (Persona elemento:personas){
+            System.out.println(elemento);
+        }
+        System.out.println("-----------------------------------------------------------------");
+
+        //Ordenado por apellido
+        Collections.sort(personas, Comparator.comparing(Persona::getApellido));
+        for (Persona elemento:personas){
+            System.out.println(elemento);
+        }
+        System.out.println("-----------------------------------------------------------------");
+
+        //Ordenado inversamente por apellido
+        Collections.sort(personas, (Persona a, Persona b) -> b.getApellido().compareTo(a.getApellido()));
+        for (Persona elemento:personas){
+            System.out.println(elemento);
+        }
     }
 }

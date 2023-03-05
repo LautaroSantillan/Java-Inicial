@@ -1,6 +1,6 @@
 package Utils;
 
-public class Persona {
+public class Persona implements Comparable<Persona>{
     private String nombre;
     private String apellido;
 
@@ -27,9 +27,11 @@ public class Persona {
 
     @Override
     public String toString() {
-        return "Persona{" +
-                "nombre='" + nombre + '\'' +
-                ", apellido='" + apellido + '\'' +
-                '}';
+        return "Persona(" + "Nombre=" + nombre + ", Apellido=" + apellido + '}';
+    }
+
+    @Override
+    public int compareTo(Persona o) {
+        return nombre.compareTo(o.getNombre());
     }
 }
