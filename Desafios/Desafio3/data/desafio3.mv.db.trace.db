@@ -1,0 +1,11 @@
+2023-03-26 12:57:48 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CLIENTS" not found (this database is empty); SQL statement:
+select c1_0.id,c1_0.birthdate,c1_0.lastname,c1_0.name from clients c1_0 where c1_0.id=? [42104-214]
+2023-03-26 16:28:56 jdbc[15]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CREATE TABLE clients( \000d\000aid int PRIMARY KEY AUTO_INCREMENT NOT NULL, \000d\000aname varchar(50) NOT NULL, \000d\000alastname varchar(50) NOT NULL, \000d\000abirthdate date[*](10) NOT NULL)"; se esperaba "ARRAY, INVISIBLE, VISIBLE, NOT NULL, NULL, AS, DEFAULT, GENERATED, ON UPDATE, NOT NULL, NULL, AUTO_INCREMENT, DEFAULT ON NULL, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, COMMENT, PRIMARY KEY, UNIQUE, NOT NULL, NULL, CHECK, REFERENCES, AUTO_INCREMENT, ,, )"
+Syntax error in SQL statement "CREATE TABLE clients( \000d\000aid int PRIMARY KEY AUTO_INCREMENT NOT NULL, \000d\000aname varchar(50) NOT NULL, \000d\000alastname varchar(50) NOT NULL, \000d\000abirthdate date[*](10) NOT NULL)"; expected "ARRAY, INVISIBLE, VISIBLE, NOT NULL, NULL, AS, DEFAULT, GENERATED, ON UPDATE, NOT NULL, NULL, AUTO_INCREMENT, DEFAULT ON NULL, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, COMMENT, PRIMARY KEY, UNIQUE, NOT NULL, NULL, CHECK, REFERENCES, AUTO_INCREMENT, ,, )"; SQL statement:
+CREATE TABLE clients( 
+id int PRIMARY KEY AUTO_INCREMENT NOT NULL, 
+name varchar(50) NOT NULL, 
+lastname varchar(50) NOT NULL, 
+birthdate date(10) NOT NULL) [42001-214]
